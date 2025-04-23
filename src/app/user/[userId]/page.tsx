@@ -35,7 +35,7 @@ export async function generateMetadata({params}): Promise<Metadata> {
             description: description,
             images: [
                 {
-                    url: 'https://image.dorsa.app/medias/DogManOfficialTrailerMOVIE-PDP.webp',
+                    url: 'https://image.dorsa.app/medias/DogManOfficialTrailerMOVIE-PDP.webp' || pdp_poster,
                     alt: title || 'Poster Image'
                 }
             ],
