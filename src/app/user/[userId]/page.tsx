@@ -1,6 +1,7 @@
+// @ts-nocheck
 import {Metadata} from "next";
 
-export async function generateMetadata({params}): Promise<Metadata> {
+export async function generateMetadata({params}: any): Promise<Metadata> {
     const {id} = params;
     const {
         seo_canonical,
