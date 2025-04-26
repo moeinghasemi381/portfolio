@@ -58,19 +58,19 @@ export async function generateMetadata({params}: any): Promise<Metadata> {
             },
             // TODO: double check these parts
             // TODO: start from here
-            twitter: {
-                title: title,
-                description: description,
-                card: 'summary_large_image',
-                images: [
-                    {
-                        url: 'https://image.dorsa.app/medias/DogManOfficialTrailerMOVIE-PDP.webp',
-                        alt: title || 'Poster Image'
-                    }
-                ],
-                site: '@dorsa_app',
-                url: 'dorsa.app'
-            }
+            // twitter: {
+            //     title: title,
+            //     description: description,
+            //     card: 'summary_large_image',
+            //     images: [
+            //         {
+            //             url: 'https://image.dorsa.app/medias/DogManOfficialTrailerMOVIE-PDP.webp',
+            //             alt: title || 'Poster Image'
+            //         }
+            //     ],
+            //     site: '@dorsa_app',
+            //     url: 'dorsa.app'
+            // }
         };
     } else {
         return {};
